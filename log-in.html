@@ -17,7 +17,7 @@
       <div class="navbar navbar-expand-md py-3 text-light bg-dark navbar-dark">
         <div class="container-fluid">
             <!-- Website name / logo -->
-            <div>
+            <div class="col-lg-6">
                 <a href="index.html" class="navbar-brand fs-2 fw-bold">Parisukat</a>
             </div>
             
@@ -28,10 +28,10 @@
             </button>
             
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <a href="index.html#discover-section" class="nav-link mx-auto">Discover</a>
-                <a href="index.html#about-us-section" class="nav-link mx-auto">About</a>
-                <a href="index.html#join-us-section" class="nav-link mx-auto">Join</a>
-                <button type="button" class="btn btn-primary"><a href="log-in.html" class="nav-link mx-auto">Log in</a></button>
+                <a href="index.html#discover-section" class="nav-link mx-auto py-2">Discover</a>
+                <a href="index.html#about-us-section" class="nav-link mx-auto py-2">About</a>
+                <a href="index.html#join-us-section" class="nav-link mx-auto py-2">Join</a>
+                <button type="button" class="btn btn-primary py-2"><a href="log-in.html" class="nav-link mx-auto">Log in</a></button>
             </div>
         </div>
       </div>
@@ -40,16 +40,16 @@
     <section class="container my-5">
         <h4 class="text-uppercase text-black-50">Log in</h4>
 
-        <div class="container w-75">
+        <div class="container col-lg-10">
             <div class="rounded row" style="background-color:rgb(255, 255, 255);">
                 <!-- Left side -->
-                <div class="col-md-6 g-0">
+                <div class="col-md-4 g-0">
                     <img src="images/log-in.jpg" class="img-fluid object-fit-cover h-100 rounded" alt="Log in image banner." >
                 </div>
 
                 <!-- Right side -->
-                <div class="col-md-6">
-                    <form class="p-5">
+                <div class="col-md-6 mx-auto my-3">
+                    <form class="p-1">
                         <p>
                             Welcome back to Parisukat! We're thrilled to have you here again.
                         </p>
@@ -77,40 +77,48 @@
         </div>
     </section>
 
-    <footer class="text-light bg-dark mt-5">
-        <div class="container-fluid">
-            <div class="row">
-                <!-- About -->
-                <div class="col-md-6 py-5">
-                    <div>
-                        <p>PARISUKAT</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque sunt nihil delectus accusantium quaerat quibusdam molestias facere soluta? Officia.</p>
-                        <p>Copyright 2023</p>
-                    </div>
-                    
-                </div>
+    <!-- Footer Section -->
+  <footer class="text-light bg-dark mt-5" id="footer-section">
+    <div class="container-fluid py-3">
+        <div class="row">
 
-                <!-- Menu -->
-                <div class="col-md-3 py-5">
-                    <div class="row">
-                        <p>Menu</p>
-                        <a href="">Discover</a>
-                        <a href="">About</a>
-                        <a href="">Join</a>
-                    </div>
+            <!-- About -->
+            <div class="col-md-6 py-2">
+                <div>
+                    <h3>PARISUKAT</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque sunt nihil delectus accusantium quaerat quibusdam molestias facere soluta? Officia.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed itaque sunt nihil delectus accusantium quaerat quibusdam molestias facere soluta? Officia.</p>
+                    <p>&copy; Copyright 2023</p>
                 </div>
+                
+            </div>
 
-                <!-- Contact -->
-                <div class="col-md-3  py-5">
-                    <p>Reach out on us.</p>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-pinterest"></i></a>
+            <!-- Menu -->
+            <div class="col-md-2 py-2">
+                <div class="row">
+                    <h3>Menu</h3>
+                    <a href="" class="bg-secondary rounded text-light text-decoration-none p-2 my-1 w-75 mx-auto text-center">Discover</a>
+                    <a href="" class="bg-secondary rounded text-light text-decoration-none p-2 my-1 w-75 mx-auto text-center">About us</a>
+                    <a href="" class="bg-secondary rounded text-light text-decoration-none p-2 my-1 w-75 mx-auto text-center">Join us</a>
+                    <a href="" class="bg-secondary rounded text-light text-decoration-none p-2 my-1 w-75 mx-auto text-center">Log in</a>
                 </div>
             </div>
+
+            <!-- Contact -->
+            <div class="col-md-4 py-2">
+                <h3>Reach out on us.</h3>
+                <div class="d-flex justify-content-between">
+                    <a href="#"><i class="fab fa-facebook-f fs-1 p-3"></i></a>
+                    <a href="#"><i class="fab fa-twitter fs-1 p-3"></i></a>
+                    <a href="#"><i class="fab fa-instagram fs-1 p-3"></i></a>
+                    <a href="#"><i class="fab fa-pinterest fs-1 p-3"></i></a>
+                </div>
+                
+                
+            </div>
         </div>
-    </footer>
+    </div>
+  </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
