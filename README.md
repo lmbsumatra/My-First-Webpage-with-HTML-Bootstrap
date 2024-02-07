@@ -16,11 +16,11 @@ Welcome to my first webpage! This project is a static website built with HTML an
 1. Clone the repository.
 
    ```bash
-   git clone https://github.com:lmbsumatra/4-1.git
+   git clone https://github.com:lmbsumatra/My-First-Webpage-with-HTML-Bootstrap.git
 
 ## Usage
 - ...
 
 ## Visit
 ```bash
-https://lmbsumatra.github.io/4-1/
+https://lmbsumatra.github.io/My-First-Webpage-with-HTML-Bootstrap/
